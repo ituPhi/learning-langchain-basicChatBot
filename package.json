@@ -1,0 +1,21 @@
+{
+  "name": "learning-langchain-basicchatbot",
+  "version": "1.0.0",
+  "description": "Basic Chatbot with langchain",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": " node --env-file=.env main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/core": "^0.3.40",
+    "@langchain/openai": "^0.4.4",
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "langchain": "^0.3.15"
+  }
+}
